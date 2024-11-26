@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.web_page {
+  background-color: rgb(209 213 219);
+  width: 100%;
+  min-height: 100vh;
+}
+.error {
+  padding: 50px 0px;
+  font-size: 20px;
+  color: red;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  /* align-items: center; */
+}
+.cart_page {
+  width: 50%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+.item img {
+  width: 100%;
+  height: 230px;
+  border-radius: 5px;
+}
+h2 {
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 25px;
+}
+.head {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.item_detail {
+  margin: 10px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+p {
+  font-size: 20px;
+}
+.add-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #ff474d;
+  color: white;
+  border: 1px solid #ff474d;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.fa-cart-shopping {
+    font-size: 30px;
+    color: red;
+}
+.cart_icon {
+  position: relative;
+  width: 5%;
+}
+.cart_icon span {
+  position: absolute;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  border-radius: 50%;
+  top: 15px;
+  left: 20px;
+}
+.cart_session {
+  width: 350px;
+}
+.cart_design {
+  position: relative;
+  height: 78vh;
+  background-color: rgb(229 231 235);
+  overflow-y: scroll;
+}
+.product_card {
+  padding: 20px;
+}
+.total {
+  background-color: white;
+  border-radius: 3px;
+  float: right;
+  padding: 7px;
+  margin: 10px 0px;
+}
+.check {
+  display: flex;
+  gap: 5px;
+  width: 100%;
+}
+.btn-check {
+  width: 100%;
+  background-color: #ff474d;
+  padding: 8px 0px;
+  border: 1px solid #ff474d;
+  border-radius: 5px;
+  color: white;
+  font-size: 15px;
+}
+.cart_data {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 30px;
+}
+.cart_data img {
+  width: 40%;
+  height: 40%;
+}
+.price {
+  font-size: 20px;
+}
+.btn-cart_item {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.btn-item {
+  width: 33.33%;
+  background-color: white;
+  padding: 8px 0px;
+  border: none;
+}

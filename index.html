@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CART</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="web_page">
+      <div id="error" class="error"></div>
+      <div class="container">
+        <div class="cart_page" id="display_item"></div>
+        <div class="cart_icon">
+          <i class="fa-solid fa-cart-shopping" onclick="display_cart()"></i>
+          <span id="item_count">0</span>
+        </div>
+        <div id="display">
+          <div class="cart_session">
+            <div class="cart_design">
+              <div id="product_card" class="product_card"></div>
+              <label for="total" class="total" id="total_count"></label>
+              <div class="check">
+                <button class="btn-check" onclick="close_cart()">close</button
+                ><button class="btn-check">checkout</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
